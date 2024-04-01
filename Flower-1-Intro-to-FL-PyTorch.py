@@ -18,6 +18,6 @@ from flwr_datasets import FederatedDataset
 # Installing dependencies
 DEVICE = torch.device("cuda")  # Try "cuda" to train on GPU
 print(
-    f"Training on {DEVICE} using PyTorch {torch.__version__} and Flower {fl.__all__}"
+    f"Training on {DEVICE} using PyTorch {torch.__version__} and Flower {fl.__version__}"
 )
 disable_progress_bar()
